@@ -1,0 +1,71 @@
+body {
+      font: 15px Franklin Gothic Heavy;
+      padding: 0;
+      margin: 0;
+      background: #005883;
+  }
+.contenedor{
+  width: 80%;
+  margin: auto;
+  averflow: hidden
+  align: center;
+}
+.ul{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #f0b429;
+  color: #333333;
+  padding: 15px;
+  min-height: 100px;
+  border-bottom: 6px solid #333333;
+}
+header li{ /*listas*/
+    float: right; /*van a flotar */
+    display: inline; /* hace que se vean en bloque menu en linea*/
+    padding: 0  20px  0  20px; /*ubicacion de la caja de menu top, richt.bottom, left*/
+  }
+header a{
+  text-decoration: none;
+}
+#objetivos{
+  margin-top: 20px;
+}
+#objetivos .caja{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#objetivos .caja img{
+  width: 100px; /*tamaño de las imagenes en los objetivos*/
+}
+
+#logo_unad{
+  padding: 20px;
+  margin-top: 10px;
+  float: right;
+  text-align: center;
+  font: 20px ansagna new; color: #f47920;
+}
+#autores{
+  padding: 20px;
+  font: 20px angsana new; color: #000000; text-align: center;
+  border-bottom: 8px solid #333333;
+  float: center;
+  }
+#biografia{
+  padding: 20px;
+  float: center;
+  margin-top: 20px
+  font: angsana new; color: #000000;
+}
+
+footer{
+  padding: 20px;
+  color: #000;
+  background-color: #f0b429; /*amarillo institucional*/
+  text-align: center;
+  float: center;
+}
